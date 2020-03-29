@@ -1,3 +1,4 @@
+'''
 print("1111")
 print(8)
 
@@ -24,6 +25,7 @@ print(type(length))
 
 lenght = str(length)
 print(type(length))
+'''
 
 #użytkownik podaje z klawiatury swoje dane
 #imie nazwisko wiek
@@ -32,8 +34,34 @@ print(type(length))
 
 name = input()
 surname = input()
-wiek = input()
 
-print("twoje imie: " + name + ",nazwisko: " + surname + ",wiek: "+ wiek)
+print("twoje imie: " + name + ",nazwisko: " + surname + "")
+
+print("\nPodaj swój wiek:", end="")
+surname="Kowalski"
+firstLetter = surname[0]
+
+lastLetter = surname[len(surname) -1]
+print(lastLetter)
+
+#konwersja
+x = "5"
+print(type(x))
+x = int(x)
+print(type(x))
+
+y = 4
+print(type(y)) #int
+y = y / 2
+print(type(y)) #float
+print(y) #2.0
 
 
+surname = "Kowalski"
+print()
+print(surname[0]) #k
+print(surname[0:3])#kow
+print(surname[-2])#k    
+print(surname[-2:])#ki
+print(surname[:-2])#kowalsk
+print(surname[:-2:2])#kwl
